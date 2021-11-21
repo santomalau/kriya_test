@@ -1,16 +1,36 @@
-# kriya
 
-A new Flutter project.
+# Kriya Test
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Programming Test in Ekuid with task: Create a simple Flutter App for Product list that consumes data from https://jsonplaceholder.typicode.com/todos
+## Taks
+Page 1 :
+- product list berisikan product name beserta tombol minus dan plus dan angka yang menunjukkan berapa banyak produk yang di beli dan tombol checkout
+- setiap tombol plus di tekan lalu akan menambahkan angka nya
+- jika tombol minus di tekan lalu akan mengurangkan angka nya
+- ketika tombol checkout di tekan maka akan mengarahkan ke page ke 2
 
-A few resources to get you started if this is your first Flutter project:
+Page 2 :
+- menampilkan produk2 yang ada qty ny, button back, dan button beli
+- ketika button back di klik akan kembali ke page 1 dan qty produk tetap sama
+-jika button beli di klik maka akan redirect ke page 1 dan qty produck kembali jadi 0
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Di kedua page :
+- terdapat header, di dalam header terdapat total dari smua produk yang di tambahkan
+## Folder Structure
+**api:** Contains the code to access the data
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**bloc:** Contains the code to manage how the application work
+
+**screen:** Contains the code to visualize the app
+
+**util:** Contains the code to support the app
+
+**widgets:** Contains the code of widget that frequently used
+
+
+## Authors
+
+- [@santomalau](https://www.github.com/santomalau)
+
+
